@@ -98,11 +98,16 @@ Car.prototype.fill = function(gallons){
       - Besides the methods on Person.prototype, babies have the ability to `.play()`:
           + Should return a string "Playing with x", x being the favorite toy.
   */
- function Baby() {
+ function Baby(Person, name, age, favoriteToy) {
+  this.name = 'Lucy',
+  this.age = 5,
+  this.favoriteToy = 'trains'
+ }
+ Baby.prototype.play = {
    
-  }
- 
-  
+
+ }
+
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
